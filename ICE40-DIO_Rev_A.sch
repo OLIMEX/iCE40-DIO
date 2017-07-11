@@ -12,10 +12,8 @@ LIBS:OLIMEX_RCL
 LIBS:OLIMEX_Regulators
 LIBS:OLIMEX_Switches
 LIBS:OLIMEX_Transistors
-LIBS:OLIMEX_IC---Exported
-LIBS:OLIMEX_DISCRET---Exported
 LIBS:ICE40-DIO_Rev_A-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -171,25 +169,25 @@ Entry Wire Line
 Entry Wire Line
 	8100 2400 8200 2500
 Text Label 8400 1700 0    60   ~ 0
-PIO3_1A
+GPIO_Pin<5>
 Text Label 8400 1800 0    60   ~ 0
-PIO3_1B
+GPIO_Pin<7>
 Text Label 8400 1900 0    60   ~ 0
-PIO3_2A
+GPIO_Pin<9>
 Text Label 8400 2000 0    60   ~ 0
-PIO3_2B
+GPIO_Pin<11>
 Text Label 8400 2100 0    60   ~ 0
-PIO3_3A
+GPIO_Pin<13>
 Text Label 8400 2200 0    60   ~ 0
-PIO3_3B
+GPIO_Pin<15>
 Text Label 8400 2300 0    60   ~ 0
-PIO3_5A
+GPIO_Pin<17>
 Text Label 8400 2400 0    60   ~ 0
-PIO3_5B
+GPIO_Pin<19>
 Text Label 8400 2500 0    60   ~ 0
-PIO3_6A
+GPIO_Pin<21>
 Text Label 8400 2600 0    60   ~ 0
-PIO3_6B
+GPIO_Pin<23>
 Entry Wire Line
 	8100 2700 8200 2800
 Entry Wire Line
@@ -203,39 +201,39 @@ Entry Wire Line
 Entry Wire Line
 	11000 3000 10900 3100
 Text Label 8400 2700 0    60   ~ 0
-PIO3_7B
+GPIO_Pin<25>
 Text Label 8400 2800 0    60   ~ 0
-PIO3_8A
+GPIO_Pin<27>
 Text Label 8400 2900 0    60   ~ 0
-PIO3_8B
+GPIO_Pin<29>
 Text Label 8400 3000 0    60   ~ 0
-PIO3_10A
+GPIO_Pin<31>
 Text Label 8400 3100 0    60   ~ 0
-PIO3_10B
+GPIO_Pin<33>
 Text Label 10000 3100 0    60   ~ 0
-PIO3_12A
+GPIO_Pin<34>
 Text Label 10000 3000 0    60   ~ 0
-PIO3_12B
+GPIO_Pin<32>
 Entry Wire Line
 	11000 2800 10900 2900
 Text Label 10000 2900 0    60   ~ 0
-PIO2_1
+GPIO_Pin<30>
 Text Label 10000 2800 0    60   ~ 0
-PIO2_2
+UEXT_#SS
 Text Label 10000 2700 0    60   ~ 0
-PIO2_3
+UEXT_SCK
 Text Label 10000 2600 0    60   ~ 0
-PIO2_4
+UEXT_MOSI
 Text Label 10000 2500 0    60   ~ 0
-PIO2_5
+UEXT_MISO
 Text Label 10000 2400 0    60   ~ 0
-PIO2_6
+UEXT_SDA
 Text Label 10000 2300 0    60   ~ 0
-PIO2_7
+UEXT_SCL
 Text Label 10000 2200 0    60   ~ 0
-PIO2_8/TxD
+UEXT_TxD
 Text Label 10000 2100 0    60   ~ 0
-PIO2_9/RxD
+UEXT_RxD
 Entry Wire Line
 	11000 2000 10900 2100
 Entry Wire Line
@@ -253,9 +251,9 @@ Entry Wire Line
 Entry Wire Line
 	11000 2600 10900 2700
 Text Label 10000 1900 0    60   ~ 0
-LED1
+GPIO_Pin<10>
 Text Label 10000 2000 0    60   ~ 0
-LED2
+GPIO_Pin<12>
 $Comp
 L GND #PWR04
 U 1 1 56BB85D9
@@ -333,26 +331,26 @@ Entry Wire Line
 	700  2500 800  2600
 Entry Wire Line
 	700  2600 800  2700
-Text Label 1100 1800 0    60   ~ 0
-PIO3_1A
-Text Label 1100 1900 0    60   ~ 0
-PIO3_1B
-Text Label 1100 2000 0    60   ~ 0
-PIO3_2A
-Text Label 1100 2100 0    60   ~ 0
-PIO3_2B
-Text Label 1100 2200 0    60   ~ 0
-PIO3_3A
-Text Label 1100 2300 0    60   ~ 0
-PIO3_3B
-Text Label 1100 2400 0    60   ~ 0
-PIO3_5A
-Text Label 1100 2500 0    60   ~ 0
-PIO3_5B
-Text Label 1100 2600 0    60   ~ 0
-PIO3_6A
-Text Label 1100 2700 0    60   ~ 0
-PIO3_6B
+Text Label 900  1800 0    60   ~ 0
+GPIO_Pin<5>
+Text Label 900  1900 0    60   ~ 0
+GPIO_Pin<7>
+Text Label 900  2000 0    60   ~ 0
+GPIO_Pin<9>
+Text Label 900  2100 0    60   ~ 0
+GPIO_Pin<11>
+Text Label 900  2200 0    60   ~ 0
+GPIO_Pin<13>
+Text Label 900  2300 0    60   ~ 0
+GPIO_Pin<15>
+Text Label 900  2400 0    60   ~ 0
+GPIO_Pin<17>
+Text Label 900  2500 0    60   ~ 0
+GPIO_Pin<19>
+Text Label 900  2600 0    60   ~ 0
+GPIO_Pin<21>
+Text Label 900  2700 0    60   ~ 0
+GPIO_Pin<23>
 Entry Wire Line
 	700  2700 800  2800
 Entry Wire Line
@@ -367,40 +365,40 @@ Entry Wire Line
 	3200 3000 3100 3100
 Entry Wire Line
 	3200 3100 3100 3200
-Text Label 1100 2800 0    60   ~ 0
-PIO3_7B
-Text Label 1100 2900 0    60   ~ 0
-PIO3_8A
-Text Label 1100 3000 0    60   ~ 0
-PIO3_8B
-Text Label 1100 3100 0    60   ~ 0
-PIO3_10A
-Text Label 1100 3200 0    60   ~ 0
-PIO3_10B
-Text Label 2500 3200 0    60   ~ 0
-PIO3_12A
-Text Label 2500 3100 0    60   ~ 0
-PIO3_12B
+Text Label 900  2800 0    60   ~ 0
+GPIO_Pin<25>
+Text Label 900  2900 0    60   ~ 0
+GPIO_Pin<27>
+Text Label 900  3000 0    60   ~ 0
+GPIO_Pin<29>
+Text Label 900  3100 0    60   ~ 0
+GPIO_Pin<31>
+Text Label 900  3200 0    60   ~ 0
+GPIO_Pin<33>
+Text Label 2400 3200 0    60   ~ 0
+GPIO_Pin<34>
+Text Label 2400 3100 0    60   ~ 0
+GPIO_Pin<32>
 Entry Wire Line
 	3200 2900 3100 3000
-Text Label 2500 3000 0    60   ~ 0
-PIO2_1
-Text Label 2500 2900 0    60   ~ 0
-PIO2_2
-Text Label 2500 2800 0    60   ~ 0
-PIO2_3
-Text Label 2500 2700 0    60   ~ 0
-PIO2_4
-Text Label 2500 2600 0    60   ~ 0
-PIO2_5
-Text Label 2500 2500 0    60   ~ 0
-PIO2_6
-Text Label 2500 2400 0    60   ~ 0
-PIO2_7
-Text Label 2500 2300 0    60   ~ 0
-PIO2_8/TxD
-Text Label 2500 2200 0    60   ~ 0
-PIO2_9/RxD
+Text Label 2400 3000 0    60   ~ 0
+GPIO_Pin<30>
+Text Label 2400 2900 0    60   ~ 0
+UEXT_#SS
+Text Label 2400 2800 0    60   ~ 0
+UEXT_SCK
+Text Label 2400 2700 0    60   ~ 0
+UEXT_MOSI
+Text Label 2400 2600 0    60   ~ 0
+UEXT_MISO
+Text Label 2400 2500 0    60   ~ 0
+UEXT_SDA
+Text Label 2400 2400 0    60   ~ 0
+UEXT_SCL
+Text Label 2400 2300 0    60   ~ 0
+UEXT_TxD
+Text Label 2400 2200 0    60   ~ 0
+UEXT_RxD
 Entry Wire Line
 	3200 2100 3100 2200
 Entry Wire Line
@@ -417,10 +415,10 @@ Entry Wire Line
 	3200 2800 3100 2900
 Entry Wire Line
 	3200 2700 3100 2800
-Text Label 2500 2000 0    60   ~ 0
-LED1
-Text Label 2500 2100 0    60   ~ 0
-LED2
+Text Label 2400 2000 0    60   ~ 0
+GPIO_Pin<10>
+Text Label 2400 2100 0    60   ~ 0
+GPIO_Pin<12>
 $Comp
 L GND #PWR07
 U 1 1 56CFB120
@@ -432,7 +430,7 @@ F 3 "" H 2800 1900 60  0000 C CNN
 	1    2800 1900
 	0    -1   1    0   
 $EndComp
-Text Label 2500 1800 0    60   ~ 0
+Text Label 2400 1800 0    60   ~ 0
 EXTCLK
 Text Notes 1000 1100 0    200  Italic 40
 Extension In
@@ -702,30 +700,30 @@ Entry Wire Line
 	700  4900 800  5000
 Entry Wire Line
 	700  5000 800  5100
-Text Label 1100 4400 0    60   ~ 0
-PIO3_1A
-Text Label 1100 4500 0    60   ~ 0
-PIO3_1B
-Text Label 1100 4600 0    60   ~ 0
-PIO3_2A
-Text Label 1100 4700 0    60   ~ 0
-PIO3_2B
-Text Label 1100 4800 0    60   ~ 0
-PIO3_3A
-Text Label 1100 4900 0    60   ~ 0
-PIO3_3B
-Text Label 1100 5000 0    60   ~ 0
-PIO3_5A
-Text Label 1100 5100 0    60   ~ 0
-PIO3_5B
+Text Label 900  4400 0    60   ~ 0
+GPIO_Pin<5>
+Text Label 900  4500 0    60   ~ 0
+GPIO_Pin<7>
+Text Label 900  4600 0    60   ~ 0
+GPIO_Pin<9>
+Text Label 900  4700 0    60   ~ 0
+GPIO_Pin<11>
+Text Label 900  4800 0    60   ~ 0
+GPIO_Pin<13>
+Text Label 900  4900 0    60   ~ 0
+GPIO_Pin<15>
+Text Label 900  5000 0    60   ~ 0
+GPIO_Pin<17>
+Text Label 900  5100 0    60   ~ 0
+GPIO_Pin<19>
 Entry Wire Line
 	700  6400 800  6500
 Entry Wire Line
 	700  6500 800  6600
-Text Label 1100 6500 0    60   ~ 0
-PIO3_6A
-Text Label 1100 6600 0    60   ~ 0
-PIO3_6B
+Text Label 900  6500 0    60   ~ 0
+GPIO_Pin<21>
+Text Label 900  6600 0    60   ~ 0
+GPIO_Pin<23>
 Entry Wire Line
 	700  6600 800  6700
 Entry Wire Line
@@ -736,20 +734,20 @@ Entry Wire Line
 	700  6900 800  7000
 Entry Wire Line
 	700  7000 800  7100
-Text Label 1100 6700 0    60   ~ 0
-PIO3_7B
-Text Label 1100 6800 0    60   ~ 0
-PIO3_8A
-Text Label 1100 6900 0    60   ~ 0
-PIO3_8B
-Text Label 1100 7000 0    60   ~ 0
-PIO3_10A
-Text Label 1100 7100 0    60   ~ 0
-PIO3_10B
+Text Label 900  6700 0    60   ~ 0
+GPIO_Pin<25>
+Text Label 900  6800 0    60   ~ 0
+GPIO_Pin<27>
+Text Label 900  6900 0    60   ~ 0
+GPIO_Pin<29>
+Text Label 900  7000 0    60   ~ 0
+GPIO_Pin<31>
+Text Label 900  7100 0    60   ~ 0
+GPIO_Pin<33>
 Entry Wire Line
 	700  7100 800  7200
-Text Label 1100 7200 0    60   ~ 0
-PIO3_12A
+Text Label 900  7200 0    60   ~ 0
+GPIO_Pin<34>
 Text Label 2400 4400 0    60   ~ 0
 IO00
 Entry Wire Line
@@ -1041,27 +1039,27 @@ Entry Wire Line
 Entry Wire Line
 	4700 4400 4600 4300
 Text Label 4800 4400 0    60   ~ 0
-PIO3_12B
+GPIO_Pin<32>
 Entry Wire Line
 	4700 4500 4600 4400
-Text Label 4900 4500 0    60   ~ 0
-PIO2_1
-Text Label 4900 4600 0    60   ~ 0
-PIO2_2
-Text Label 4900 4700 0    60   ~ 0
-PIO2_3
-Text Label 4900 4800 0    60   ~ 0
-PIO2_4
-Text Label 4900 4900 0    60   ~ 0
-PIO2_5
-Text Label 4900 5000 0    60   ~ 0
-PIO2_6
-Text Label 4900 5100 0    60   ~ 0
-PIO2_7
-Text Label 4900 6500 0    60   ~ 0
-PIO2_8/TxD
-Text Label 4900 6600 0    60   ~ 0
-PIO2_9/RxD
+Text Label 4800 4500 0    60   ~ 0
+GPIO_Pin<30>
+Text Label 4800 4600 0    60   ~ 0
+UEXT_#SS
+Text Label 4800 4700 0    60   ~ 0
+UEXT_SCK
+Text Label 4800 4800 0    60   ~ 0
+UEXT_MOSI
+Text Label 4800 4900 0    60   ~ 0
+UEXT_MISO
+Text Label 4800 5000 0    60   ~ 0
+UEXT_SDA
+Text Label 4800 5100 0    60   ~ 0
+UEXT_SCL
+Text Label 4800 6500 0    60   ~ 0
+UEXT_TxD
+Text Label 4800 6600 0    60   ~ 0
+UEXT_RxD
 Entry Wire Line
 	4700 6600 4600 6500
 Entry Wire Line
@@ -1078,10 +1076,10 @@ Entry Wire Line
 	4700 4600 4600 4500
 Entry Wire Line
 	4700 4700 4600 4600
-Text Label 5200 6800 2    60   ~ 0
-LED1
-Text Label 5200 6700 2    60   ~ 0
-LED2
+Text Label 4800 6800 0    60   ~ 0
+GPIO_Pin<10>
+Text Label 4800 6700 0    60   ~ 0
+GPIO_Pin<12>
 $Comp
 L SN74ALVC164245DL(SSOP48) U3
 U 3 1 56DB5EE0
@@ -1181,9 +1179,9 @@ F 3 "" H 4400 1000 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 Text Label 3400 1600 0    60   ~ 0
-PIO2_8/TxD
+UEXT_TxD
 Text Label 7300 1600 0    60   ~ 0
-PIO2_9/RxD
+UEXT_RxD
 Entry Wire Line
 	8000 1600 8100 1500
 Entry Wire Line
@@ -1244,17 +1242,17 @@ F 3 "" H 4300 1350 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 7300 1900 0    60   ~ 0
-PIO2_2
+UEXT_#SS
 Text Label 3400 1900 0    60   ~ 0
-PIO2_3
+UEXT_SCK
 Text Label 7300 1800 0    60   ~ 0
-PIO2_4
+UEXT_MOSI
 Text Label 3400 1800 0    60   ~ 0
-PIO2_5
+UEXT_MISO
 Text Label 7300 1700 0    60   ~ 0
-PIO2_6
+UEXT_SDA
 Text Label 3400 1700 0    60   ~ 0
-PIO2_7
+UEXT_SCL
 Entry Wire Line
 	3300 1700 3200 1600
 Entry Wire Line
@@ -1339,10 +1337,10 @@ F 3 "" H 3500 2400 60  0000 C CNN
 	1    3500 2400
 	1    0    0    -1  
 $EndComp
-Text Label 5200 2600 0    60   ~ 0
-PIO2_7
-Text Label 5200 2700 0    60   ~ 0
-PIO2_6
+Text Label 5300 2600 0    60   ~ 0
+UEXT_SCL
+Text Label 5300 2700 0    60   ~ 0
+UEXT_SDA
 $Comp
 L MCP1825-ADJE/DC(SOT-223-5) VR1
 U 1 1 56DA3658
@@ -1773,9 +1771,9 @@ Wire Bus Line
 Wire Bus Line
 	2900 7600 4200 7600
 Wire Bus Line
-	4200 7600 4300 7500
+	4300 7500 4200 7600
 Wire Bus Line
-	4300 7500 4300 5600
+	4300 5600 4300 7500
 Wire Wire Line
 	5100 4200 5500 4200
 Wire Wire Line
@@ -1905,9 +1903,9 @@ Wire Bus Line
 Wire Bus Line
 	7000 6300 8300 6300
 Wire Bus Line
-	8300 6300 8400 6200
+	8400 6200 8300 6300
 Wire Bus Line
-	8400 6200 8400 5600
+	8400 5600 8400 6200
 Wire Wire Line
 	4400 1000 4400 1500
 Wire Wire Line
@@ -1971,9 +1969,9 @@ Connection ~ 3500 2600
 Connection ~ 3500 2800
 Connection ~ 3700 2800
 Wire Wire Line
-	5100 2600 5600 2600
+	5100 2600 5800 2600
 Wire Wire Line
-	5100 2700 5600 2700
+	5100 2700 5800 2700
 Wire Wire Line
 	4200 2700 4500 2700
 Wire Wire Line
